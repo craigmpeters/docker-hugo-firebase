@@ -1,9 +1,9 @@
 # docker-hugo-firebase
-A docker image with hugo and firebase-cli installed
+A docker image with hugo and firebase-cli installed, updated from jguyomard/docker-hugo to work with a higher version of hugo
 
 # Using on Gitlab CI
 
-Here the example of `.gitlab-ci.yml` for Hugo `0.31.1`:
+Here the example of `.gitlab-ci.yml` for Hugo `0.38`:
 
 ```yaml
 image: nohitme/hugo-firebase:0.31.1
